@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio David Adrian, mahasiswa Universitas Tarumanagara. Pendidikan, pengalaman organisasi, dan proyek pribadi.">
+  <meta name="theme-color" content="#2f5f98">
+  <title>David Adrian | Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#utama">Lewati navigasi</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="logo" href="#beranda">David Adrian</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Buka menu navigasi">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#beranda">Beranda</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#organisasi">Organisasi</a>
+        <a href="#proyek">Proyek</a>
+      </div>
+    </nav>
+  </header>
+  <main id="utama" class="container">
+    <section class="hero" id="beranda" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="section-label">halo selamat datang di porto saya</p>
+        <h1 id="hero-title">David Adrian</h1>
+        <p class="hero-description">Saya David Adrian mahasiswa Universitas Tarumanagara</p>
+        <p class="hero-description">disini saya ngeshare projek yang sudah saya lakuin dan pengalaman di organisasi</p>
+        <div class="hero-actions">
+          <a class="button" href="#proyek">Lihat proyek</a>
+          <a class="text-link" href="https://github.com/Vim-A" target="_blank" rel="noopener noreferrer">Profil GitHub</a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="Identitas mahasiswa">
+        <div class="initials" aria-hidden="true">DA</div>
+        <h2>David Adrian</h2>
+        <p>Universitas Tarumanagara</p>
+        <dl class="profile-info">
+          <div>
+            <dt>NIM</dt>
+            <dd>535250113</dd>
+          </div>
+          <div>
+            <dt>Minat</dt>
+            <dd>Backend dan AI</dd>
+          </div>
+          <div>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/Vim-A" target="_blank" rel="noopener noreferrer">Vim-A</a></dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+    <section class="section section-layout" id="pendidikan" aria-labelledby="education-title">
+      <div class="section-heading">
+        <h2 id="education-title">Riwayat pendidikan</h2>
+        <p>Dari sekolah dasar hingga kuliah di Universitas Tarumanagara.</p>
+      </div>
+      <ol class="education-list">
+        <li>
+          <p class="education-level">Sekolah dasar</p>
+          <h3>SD di Padang Sidempuan</h3>
+          <p>Kelas 1 sampai 2</p>
+        </li>
+        <li>
+          <p class="education-level">Sekolah dasar</p>
+          <h3>Genesaret</h3>
+          <p>Kelas 3 sampai 6</p>
+        </li>
+        <li>
+          <p class="education-level">Sekolah menengah pertama</p>
+          <h3>SMP Negeri 63</h3>
+        </li>
+        <li>
+          <p class="education-level">Sekolah menengah atas</p>
+          <h3>Budi Agung</h3>
+        </li>
+        <li>
+          <p class="education-level">Perguruan tinggi</p>
+          <h3>Universitas Tarumanagara</h3>
+          <p class="current-status">Sedang menempuh pendidikan</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section section-layout" id="organisasi" aria-labelledby="organization-title">
+      <div class="section-heading">
+        <h2 id="organization-title">Pengalaman organisasi</h2>
+        <p>Kegiatan yang saya ikuti di luar perkuliahan.</p>
+      </div>
+      <article class="organization-card">
+        <p class="section-label">Universitas Tarumanagara</p>
+        <h3>Dharmmayana</h3>
+        <p>Saya pernah mengikuti organisasi Dharmmayana di Universitas Tarumanagara. Ini menjadi salah satu pengalaman organisasi saya selama kuliah.</p>
+      </article>
+    </section>
+
+    <section class="section" id="proyek" aria-labelledby="projects-title">
+      <div class="section-heading projects-heading">
+        <h2 id="projects-title">Proyek saya</h2>
+        <p>Proyek perkuliahan dan proyek pribadi yang pernah saya buat.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <p class="section-label">Proyek perkuliahan</p>
+          <h3>Backend Tiketing Konser</h3>
+          <p>Saya pernah membuat backend untuk sistem tiketing konser sebagai proyek kuliah. Proyek ini menjadi kesempatan saya menerapkan materi perkuliahan dalam pengembangan backend.</p>
+          <ul class="tags" aria-label="Topik proyek">
+            <li>Backend</li>
+            <li>Tiketing konser</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <p class="section-label">Proyek pribadi</p>
+          <h3>Bot AI Prediksi Saham</h3>
+          <p>Di luar tugas kuliah, saya membuat bot berbasis AI untuk membantu saya memprediksi saham. Proyek ini berawal dari ketertarikan saya pada AI dan saham.</p>
+          <ul class="tags" aria-label="Topik proyek">
+            <li>AI</li>
+            <li>Bot</li>
+            <li>Saham</li>
+          </ul>
+        </article>
+      </div>
+      <a class="text-link github-link" href="https://github.com/Vim-A" target="_blank" rel="noopener noreferrer">Kunjungi GitHub saya</a>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div>
+      <p class="footer-name">David Adrian</p>
+      <p>NIM 535250113 / Universitas Tarumanagara</p>
+    </div>
+    <a class="text-link" href="#beranda">Kembali ke atas</a>
+  </footer>
+</body>
+</html>
